@@ -1,33 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .App {
   text-align: center;
+  background-image: url(./jon_snow.svg);
+  padding: 3% 10% 0% 5%;
+  background-size: cover;
+}
+
+.App-menu {
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  align-items: center;
+  color: #383838;
+  justify-content: space-around;
+}
+
+.App-social {
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: #383838;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #555553;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #34cc61;
+}
+
+li a:hover {
+  color: #34cc61;
+}
+
+.Intro {
+  padding: 10% 0% 0% 3%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.h1 {
+  font-size: 3em;
+  color: #4a4a4a;
+}
+
+.h2 {
+  font-size: 4em;
+  color: #4a4a4a;
+}
+
+.h3 {
+  font-size: 5em;
+  color: #4a4a4a;
+}
+
+.App-social:hover {
+  fill: white;
 }
