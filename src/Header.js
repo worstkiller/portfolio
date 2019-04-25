@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import 'bulma/css/bulma.css';
 import twitter from './twitter.svg';
 import linkedIn from './linkedin.svg';
 import github from './github.svg';
@@ -27,7 +26,7 @@ class Header extends Component {
             </li>
           </ul>
         </div>
-        <div class="column is-one-third" className="App-social">
+        <div class="column is-one-third">
           <ul>
             <li>
               <a href="#home">

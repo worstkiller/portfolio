@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('./css/mystyles.css');
 
 body {
   font-family: 'Noto Sans', sans-serif;
@@ -26,12 +27,18 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .App-logo {
   font-size: calc(10px + 2vmin);
   font-weight: bold;
   color: #383838;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
 }
 
 .App-header {
@@ -79,20 +86,25 @@ li a:hover {
 }
 
 .h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #4a4a4a;
 }
 
 .h2 {
-  font-size: 4em;
+  font-size: 3.5em;
   color: #4a4a4a;
 }
 
 .h3 {
-  font-size: 5em;
+  font-size: 4.5em;
   color: #4a4a4a;
 }
 
-.App-social:hover {
-  fill: white;
+.h4 {
+  font-size: 1.5em;
+  color: #4a4a4a;
+}
+
+.Button-bulma {
+  background-color: #34cc61;
 }
