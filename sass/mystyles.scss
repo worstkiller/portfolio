@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 
 $green: #36cd61;
 $background-color:$green;
 
 // Update Bulma's global variables
-$family-sans-serif: 'Noto Sans', sans-serif; 
+$family-sans-serif: 'Nunito Sans', sans-serif; 
 $primary: $green;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
