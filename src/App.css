@@ -5,6 +5,7 @@
 body {
   /* font-family: 'Noto Sans', sans-serif; */
   font-family: 'Nunito Sans', sans-serif;
+  background-color: #ffffff;
 }
 
 .App {
@@ -72,11 +73,11 @@ li a {
 }
 
 .active {
-  background-color: #34cc61;
+  background-color: #36cd61;
 }
 
 li a:hover {
-  color: #34cc61;
+  color: #36cd61;
 }
 
 .Intro {
@@ -109,9 +110,98 @@ li a:hover {
 
 .Portfolio-title {
   padding-top: 20%;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #4a4a4a;
   display: flex;
-  justify-content: center;
   align-content: center;
+  padding-right: 20px;
+  justify-content: flex-end;
+}
+
+/* card portfolio*/
+.Section {
+  padding: 1em;
+}
+
+.Card {
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 300px;
+  max-height: 380px;
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(131, 156, 199, 0.12),
+    0 1px 2px rgba(131, 156, 199, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.Card:hover {
+  box-shadow: 0 14px 28px rgba(131, 156, 199, 0.25),
+    0 10px 10px rgba(131, 156, 199, 0.22);
+}
+
+.Header-card {
+  height: 120px;
+  background: #839cc7;
+}
+
+.Avatar-card {
+  width: 80px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Img-card {
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -42px;
+  border: 4px solid white;
+}
+
+.Card-body {
+  padding: 30px;
+  background-color: white;
+}
+
+.User-meta {
+  padding-top: 20px;
+}
+
+.Username-card {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Position-card {
+  font-size: 90%;
+  color: #839cc7;
+}
+
+.User-bio {
+  padding-top: 8px;
+  font-size: 92%;
+  color: #999;
+}
+
+.Action-card {
+  padding-top: 20px;
+}
+
+.Button-card:hover {
+  opacity: 0.7;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.Left-title {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
 }
