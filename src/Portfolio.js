@@ -55,9 +55,12 @@ class PortFolio extends Component {
     return (
       <div class="columns is-vcentered">
         <div class="column is-narrow" className="Portfolio-title">
-          <p class="title is-3" className="Left-title">
+          <h1 class="title " className="Right-title">
             Portfolio
-          </p>
+          </h1>
+          <h2 class="title title is-6" className="Right-title-sub">
+            (Recent work)
+          </h2>
         </div>
 
         <div

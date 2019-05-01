@@ -198,6 +198,22 @@ li a:hover {
   overflow-x: auto;
 }
 
+.Right-title {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.Right-title-sub {
+  display: flex;
+  padding-top: 2%;
+  padding-left: 1%;
+  justify-content: space-around;
+  align-content: flex-end;
+  color: #555553;
+  font-size: 14px;
+}
+
 .Left-title {
   display: flex;
   justify-content: flex-start;
