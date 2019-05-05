@@ -7,10 +7,10 @@ class Header extends Component {
   render() {
     return (
       <div class="columns" className="App-header">
-        <div class="column is-one-third" className="App-logo">
+        <div class="column is-3" className="App-logo">
           vikas.dev
         </div>
-        <div class="column is-one-third" className="App-menu">
+        <div class="column is-3" className="App-menu">
           <ul>
             <li>
               <a href="#home">About</a>
@@ -26,7 +26,7 @@ class Header extends Component {
             </li>
           </ul>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-6">
           <ul>
             <li>
               <a href="#home">

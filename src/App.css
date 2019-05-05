@@ -11,8 +11,9 @@ body {
 .App {
   text-align: center;
   background-image: url(./jon_snow.svg);
-  padding: 3% 10% 0% 5%;
-  background-size: cover;
+  padding: 3% 5% 3% 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .App-menu {
@@ -41,14 +42,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 20%;
 }
 
 .App-header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: black;
 }
 
@@ -81,7 +81,7 @@ li a:hover {
 }
 
 .Intro {
-  padding: 10% 0% 0% 3%;
+  padding: 10% 0% 0% 0%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -198,12 +198,6 @@ li a:hover {
   overflow-x: auto;
 }
 
-.Right-title {
-  display: flex;
-  justify-content: flex-start;
-  justify-items: flex-start;
-}
-
 .Right-title-sub {
   display: flex;
   padding-top: 2%;
@@ -220,9 +214,22 @@ li a:hover {
   justify-items: flex-start;
 }
 
+.Tech-title {
+  padding-top: 10%;
+  font-size: 2.5em;
+  color: #4a4a4a;
+  display: flex;
+  align-content: center;
+  padding-right: 20px;
+  justify-content: flex-end;
+}
+
 .Card-tech {
   border-radius: 6px;
   overflow: hidden;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
   width: 100%;
   background-color: #ffffff;
   box-shadow: 0 1px 3px rgba(131, 156, 199, 0.12),
@@ -233,13 +240,6 @@ li a:hover {
 .Card-tech:hover {
   box-shadow: 0 14px 28px rgba(131, 156, 199, 0.25),
     0 10px 10px rgba(131, 156, 199, 0.22);
-}
-
-#Card-tech-title {
-  margin-bottom: 2%;
-  padding-left: 3%;
-  padding-bottom: 2%;
-  float: left;
 }
 
 #card-tech-margin {
@@ -260,6 +260,26 @@ li a:hover {
 }
 
 .Tech-card-container {
-  padding: 1%;
-  margin: 1%;
+  padding: 1.5%;
+}
+
+.Blog-display {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Card-blog {
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 320px;
+  margin: 0 auto;
+  max-height: 440px;
+  box-shadow: 0 1px 3px rgba(131, 156, 199, 0.12),
+    0 1px 2px rgba(131, 156, 199, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.Card-blog:hover {
+  box-shadow: 0 14px 28px rgba(131, 156, 199, 0.25),
+    0 10px 10px rgba(131, 156, 199, 0.22);
 }

@@ -15,6 +15,7 @@ class App extends Component {
         <About />
         <Portfolio />
         <Tech />
+        <Blog />
       </div>
     );
   }
