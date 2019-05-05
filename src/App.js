@@ -5,6 +5,7 @@ import Header from './Header';
 import About from './Content';
 import Portfolio from './Portfolio';
 import Tech from './Tech';
+import Blog from './Blog';
 
 class App extends Component {
   render() {

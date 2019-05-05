@@ -22,14 +22,26 @@ class Tech extends Component {
               </div>
               <div class="column" className="Tech-subtitle-tags">
                 <div class="tags">
-                  <span class="tag is-rounded is-medium">RxJava</span>
-                  <span class="tag is-rounded is-medium">LiveData</span>
-                  <span class="tag is-rounded is-medium">ConstraintLayout</span>
-                  <span class="tag is-rounded is-medium">Firebase</span>
-                  <span class="tag is-rounded is-medium">Room</span>
-                  <span class="tag is-rounded is-medium">Material Design</span>
-                  <span class="tag is-rounded is-medium">LiveData</span>
-                  <span class="tag is-rounded is-medium">ViewModel</span>
+                  <span class="tag is-rounded is-medium  is-dark">RxJava</span>
+                  <span class="tag is-rounded is-medium  is-dark">
+                    LiveData
+                  </span>
+                  <span class="tag is-rounded is-medium  is-dark">
+                    ConstraintLayout
+                  </span>
+                  <span class="tag is-rounded is-medium  is-dark">
+                    Firebase
+                  </span>
+                  <span class="tag is-rounded is-medium  is-dark">Room</span>
+                  <span class="tag is-rounded is-medium  is-dark">
+                    Material Design
+                  </span>
+                  <span class="tag is-rounded is-medium  is-dark">
+                    LiveData
+                  </span>
+                  <span class="tag is-rounded is-medium  is-dark">
+                    ViewModel
+                  </span>
                 </div>
               </div>
 
@@ -44,14 +56,18 @@ class Tech extends Component {
               </div>
               <div class="column" className="Tech-subtitle-tags">
                 <div class="tags">
-                  <span class="tag is-rounded is-medium">JetPack</span>
-                  <span class="tag is-rounded is-medium">Retrofit</span>
-                  <span class="tag is-rounded is-medium">Dagger2</span>
-                  <span class="tag is-rounded is-medium">Glide</span>
-                  <span class="tag is-rounded is-medium">Fresco</span>
-                  <span class="tag is-rounded is-medium">Picasso</span>
-                  <span class="tag is-rounded is-medium">Facebook</span>
-                  <span class="tag is-rounded is-medium">
+                  <span class="tag is-rounded is-medium is-light">JetPack</span>
+                  <span class="tag is-rounded is-medium is-light">
+                    Retrofit
+                  </span>
+                  <span class="tag is-rounded is-medium is-light">Dagger2</span>
+                  <span class="tag is-rounded is-medium is-light">Glide</span>
+                  <span class="tag is-rounded is-medium is-light">Fresco</span>
+                  <span class="tag is-rounded is-medium is-light">Picasso</span>
+                  <span class="tag is-rounded is-medium is-light" is-light>
+                    Facebook
+                  </span>
+                  <span class="tag is-rounded is-medium is-light">
                     Google Speech to text
                   </span>
                 </div>
@@ -68,8 +84,8 @@ class Tech extends Component {
               </div>
               <div class="column" className="Tech-subtitle-tags">
                 <div class="tags">
-                  <span class="tag is-rounded is-medium">Kotlin</span>
-                  <span class="tag is-rounded is-medium">Java</span>
+                  <span class="tag is-rounded is-medium is-dark">Kotlin</span>
+                  <span class="tag is-rounded is-medium is-dark">Java</span>
                 </div>
               </div>
 
@@ -84,15 +100,24 @@ class Tech extends Component {
               </div>
               <div class="column" className="Tech-subtitle-tags">
                 <div class="tags">
-                  <span class="tag is-rounded is-medium">Android Studio</span>
-                  <span class="tag is-rounded is-medium">Git</span>
-                  <span class="tag is-rounded is-medium">Postman</span>
-                  <span class="tag is-rounded is-medium">Trello</span>
-                  <span class="tag is-rounded is-medium">Zeplin</span>
-                  <span class="tag is-rounded is-medium">Photoshop</span>
-                  <span class="tag is-rounded is-medium">Genymotion</span>
-                  <span class="tag is-rounded is-medium">Travis CI</span>
-                  <span class="tag is-rounded is-medium">Fabric</span>
+                  <span class="tag is-rounded is-medium is-light">
+                    Android Studio
+                  </span>
+                  <span class="tag is-rounded is-medium is-light">Git</span>
+                  <span class="tag is-rounded is-medium is-light">Postman</span>
+                  <span class="tag is-rounded is-medium is-light">Trello</span>
+                  <span class="tag is-rounded is-medium is-light">Zeplin</span>
+                  <span class="tag is-rounded is-medium is-light">
+                    Photoshop
+                  </span>
+                  <span class="tag is-rounded is-medium is-light">
+                    Genymotion
+                  </span>
+                  <span class="tag is-rounded is-medium is-light">
+                    Travis CI
+                  </span>
+                  <span class="tag is-rounded is-medium is-light">Fabric</span>
+                  <span class="tag is-rounded is-medium is-light">Slack</span>
                 </div>
               </div>
 
@@ -107,11 +132,15 @@ class Tech extends Component {
               </div>
               <div class="column" className="Tech-subtitle-tags">
                 <div class="tags">
-                  <span class="tag is-rounded is-medium">Flutter</span>
-                  <span class="tag is-rounded is-medium">React Js</span>
-                  <span class="tag is-rounded is-medium">Dart</span>
-                  <span class="tag is-rounded is-medium">Swift</span>
-                  <span class="tag is-rounded is-medium">Blogging</span>
+                  <span class="tag is-rounded is-medium  is-dark">Flutter</span>
+                  <span class="tag is-rounded is-medium  is-dark">
+                    React Js
+                  </span>
+                  <span class="tag is-rounded is-medium  is-dark">Dart</span>
+                  <span class="tag is-rounded is-medium  is-dark">Swift</span>
+                  <span class="tag is-rounded is-medium  is-dark">
+                    Blogging
+                  </span>
                 </div>
               </div>
             </div>
