@@ -5,12 +5,12 @@ class PortFolio extends Component {
     projects: {
       Manch: {
         icon:
-          'https://lh3.googleusercontent.com/lvtw9fohTi3-srvb92ZLWxSCXIH-qfHRWTwJ-q_BNTZlBlMH2IaXS9pPYG2aPyOikeh_=s360-rw',
+          'https://lh3.googleusercontent.com/lvtw9fohTi3-srvb92ZLWxSCXIH-qfHRWTwJ-q_BNTZlBlMH2IaXS9pPYG2aPyOikeh_=s70-rw',
         title: 'Manch App',
         description:
           'Share, discuss and chat on live topics and news. Beautiful feed based on interests and interact with like minded people and win prizes.',
         link: 'https://play.google.com/store/apps/details?id=com.app.manch',
-        lang: 'Kotlin/Java'
+        lang: 'Java/Kotlin'
       },
       Clipper: {
         icon:

@@ -219,3 +219,47 @@ li a:hover {
   justify-content: flex-start;
   justify-items: flex-start;
 }
+
+.Card-tech {
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(131, 156, 199, 0.12),
+    0 1px 2px rgba(131, 156, 199, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.Card-tech:hover {
+  box-shadow: 0 14px 28px rgba(131, 156, 199, 0.25),
+    0 10px 10px rgba(131, 156, 199, 0.22);
+}
+
+#Card-tech-title {
+  margin-bottom: 2%;
+  padding-left: 3%;
+  padding-bottom: 2%;
+  float: left;
+}
+
+#card-tech-margin {
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
+
+.Tech-subtitle {
+  margin-top: 2%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Tech-subtitle-tags {
+  margin-top: 0.5%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Tech-card-container {
+  padding: 1%;
+  margin: 1%;
+}
