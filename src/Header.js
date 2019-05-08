@@ -24,6 +24,9 @@ class Header extends Component {
             <li>
               <a href="#home">Blog</a>
             </li>
+            <li>
+              <a href="#home">Social</a>
+            </li>
           </ul>
         </div>
         <div class="column is-6">
