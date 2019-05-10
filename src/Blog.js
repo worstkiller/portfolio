@@ -35,7 +35,7 @@ class Blog extends Component {
 
   render() {
     return (
-      <div class="columns">
+      <div class="columns" className="PortFolio-section">
         <div class="column" className="Tech-title">
           <h1 class="title " className="Right-title">
             Blog

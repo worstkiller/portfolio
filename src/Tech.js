@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Tech extends Component {
   render() {
     return (
-      <div class="columns" id="card-tech">
+      <div class="columns" id="card-tech" className="PortFolio-section">
         <div class="column" className="Tech-title">
           <h1 class="title " className="Right-title">
             Technologies
