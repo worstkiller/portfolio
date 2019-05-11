@@ -292,7 +292,7 @@ li a:hover {
 .Footer-section {
   margin-top: 10%;
   min-height: 240px;
-  height: 1200px;
+  height: 800px;
   background-color: white;
   background-image: url(./footer.svg);
   background-size: cover;
@@ -321,4 +321,12 @@ li a:hover {
   padding-left: 2.5%;
   padding-top: 1%;
   padding-right: 12%;
+}
+
+.footer-social-margin {
+  margin-top: 8%;
+  justify-items: center;
+  display: block;
+  opacity: 0.8;
+  justify-content: space-around;
 }

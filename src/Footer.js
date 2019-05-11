@@ -67,21 +67,47 @@ class Footer extends Component {
               (Some design samples)
             </h2>
           </div>
+          <div class="column" className="image-gallery-slide">
+            <Gallery
+              photos={photos}
+              onClick={this.openLightbox}
+              direction={'row'}
+            />
+            <Lightbox
+              images={photos}
+              onClose={this.closeLightbox}
+              onClickPrev={this.gotoPrevious}
+              onClickNext={this.gotoNext}
+              currentImage={this.state.currentImage}
+              isOpen={this.state.lightboxIsOpen}
+            />
+          </div>
         </div>
-        <div class="column" className="image-gallery-slide">
-          <Gallery
-            photos={photos}
-            onClick={this.openLightbox}
-            direction={'row'}
-          />
-          <Lightbox
-            images={photos}
-            onClose={this.closeLightbox}
-            onClickPrev={this.gotoPrevious}
-            onClickNext={this.gotoNext}
-            currentImage={this.state.currentImage}
-            isOpen={this.state.lightboxIsOpen}
-          />
+        <div class="column" className="footer-social-margin">
+          <footer class="footer">
+            <div>
+              Inspired by{' '}
+              <a href="https://dribbble.com/chillingmantis">Chilling Mantis</a>
+            </div>
+            <div class="content has-text-centered">
+              <p>
+                Copyright @ 2019{' '}
+                <strong>
+                  <a href="">vikas.dev</a>
+                </strong>{' '}
+                The source code is licensed under
+                <a href="http://opensource.org/licenses/mit-license.php">
+                  {' '}
+                  MIT{' '}
+                </a>
+                . The website content is licensed{' '}
+                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  CC BY NC SA 4.0
+                </a>
+                .
+              </p>
+            </div>
+          </footer>
         </div>
       </div>
     );
