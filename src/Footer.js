@@ -87,7 +87,9 @@ class Footer extends Component {
           <footer class="footer">
             <div>
               Inspired by{' '}
-              <a href="https://dribbble.com/chillingmantis">Chilling Mantis</a>
+              <a href="https://dribbble.com/chillingmantis" target="_blank">
+                Chilling Mantis
+              </a>
             </div>
             <div class="content has-text-centered">
               <p>
@@ -96,12 +98,18 @@ class Footer extends Component {
                   <a href="">vikas.dev</a>
                 </strong>{' '}
                 The source code is licensed under
-                <a href="http://opensource.org/licenses/mit-license.php">
+                <a
+                  href="http://opensource.org/licenses/mit-license.php"
+                  target="_blank"
+                >
                   {' '}
                   MIT{' '}
                 </a>
                 . The website content is licensed{' '}
-                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <a
+                  href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  target="_blank"
+                >
                   CC BY NC SA 4.0
                 </a>
                 .

@@ -10,7 +10,7 @@ body {
 
 .App {
   text-align: center;
-  background-image: url(./jon_snow.svg);
+  background-image: url(./assets/app_background.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -278,7 +278,7 @@ li a:hover {
   overflow: hidden;
   max-width: 320px;
   margin: 0 auto;
-  max-height: 440px;
+  max-height: 460px;
   box-shadow: 0 1px 3px rgba(131, 156, 199, 0.12),
     0 1px 2px rgba(131, 156, 199, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -294,7 +294,7 @@ li a:hover {
   min-height: 240px;
   height: 800px;
   background-color: white;
-  background-image: url(./footer.svg);
+  background-image: url(./assets/footer.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }

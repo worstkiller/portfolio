@@ -13,7 +13,10 @@ class About extends Component {
         </p>
         <p className="h4">Excited about learning and sharing opportunities.</p>
         <br />
-        <a class="button is-success is-rounded  is-large">
+        <a
+          class="button is-success is-rounded  is-large"
+          href="mailto:vkbookworm@gmail.com"
+        >
           <span>Get in touch</span>
         </a>
       </div>

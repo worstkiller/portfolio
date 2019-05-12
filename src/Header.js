@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import twitter from './twitter.svg';
-import linkedIn from './linkedin.svg';
-import github from './github.svg';
+import twitter from './assets/twitter.svg';
+import linkedIn from './assets/linkedin.svg';
+import github from './assets/github.svg';
+import stackoverflow from './assets/overflowing.svg';
 
 class Header extends Component {
   render() {
@@ -32,18 +33,29 @@ class Header extends Component {
         <div class="column is-6">
           <ul>
             <li>
-              <a href="#home">
+              <a href="https://twitter.com/vikaskum09" target="_blank">
                 <img src={twitter} height="20" width="20" />
               </a>
             </li>
             <li>
-              <a href="#home">
+              <a
+                href="https://www.linkedin.com/in/vikaskumar09/"
+                target="_blank"
+              >
                 <img src={linkedIn} height="20" width="20" />
               </a>
             </li>
             <li>
-              <a href="#home">
+              <a href="https://github.com/worstkiller" target="_blank">
                 <img src={github} height="20" width="20" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://stackoverflow.com/users/4517450/vikas-kumar"
+                target="_blank"
+              >
+                <img src={stackoverflow} height="20" width="20" />
               </a>
             </li>
           </ul>
