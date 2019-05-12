@@ -53,7 +53,11 @@ class PortFolio extends Component {
 
   render() {
     return (
-      <div class="columns is-vcentered" className="PortFolio-section">
+      <div
+        class="columns is-vcentered"
+        className="PortFolio-section"
+        id="Portfolio"
+      >
         <div class="column is-narrow" className="Portfolio-title">
           <h1 class="title " className="Right-title">
             Portfolio

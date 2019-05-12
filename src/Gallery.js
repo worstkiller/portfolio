@@ -59,7 +59,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <div class="columns" className="Footer-section">
+      <div class="columns" className="Footer-section" id="Gallery">
         <div class="column">
           <div class="column" className="Footer-social-title">
             <h1>Gallery</h1>
@@ -89,7 +89,12 @@ class Footer extends Component {
               Inspired by{' '}
               <a href="https://dribbble.com/chillingmantis" target="_blank">
                 Chilling Mantis
+              </a>{' '}
+              Hosted on{' '}
+              <a href="https://pages.github.com/" target="_blank">
+                Github Pages{' '}
               </a>
+              with &#9829;
             </div>
             <div class="content has-text-centered">
               <p>

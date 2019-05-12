@@ -6,7 +6,7 @@ import About from './Content';
 import Portfolio from './Portfolio';
 import Tech from './Tech';
 import Blog from './Blog';
-import Footer from './Footer';
+import Gallery from './Gallery';
 
 class App extends Component {
   render() {
@@ -17,7 +17,7 @@ class App extends Component {
         <Portfolio />
         <Tech />
         <Blog />
-        <Footer />
+        <Gallery />
       </div>
     );
   }

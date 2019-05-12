@@ -6,6 +6,11 @@ import stackoverflow from './assets/overflowing.svg';
 
 class Header extends Component {
   render() {
+    function handleClick(e) {
+      var elmnt = document.getElementById(e.target.text);
+      elmnt.scrollIntoView(true);
+    }
+
     return (
       <div class="columns" className="App-header">
         <div class="column is-3" className="App-logo">
@@ -14,19 +19,19 @@ class Header extends Component {
         <div class="column is-3" className="App-menu">
           <ul>
             <li>
-              <a href="#home">About</a>
+              <a onClick={handleClick}>About</a>
             </li>
             <li>
-              <a href="#home">Portfolio</a>
+              <a onClick={handleClick}>Portfolio</a>
             </li>
             <li>
-              <a href="#home">Tech</a>
+              <a onClick={handleClick}>Tech</a>
             </li>
             <li>
-              <a href="#home">Blog</a>
+              <a onClick={handleClick}>Blog</a>
             </li>
             <li>
-              <a href="#home">Gallery</a>
+              <a onClick={handleClick}>Gallery</a>
             </li>
           </ul>
         </div>
