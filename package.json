@@ -2,9 +2,11 @@
   "name": "vikasdev",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://worstkiller.github.io/portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
     "bulma": "^0.7.4",
+    "gh-pages": "^2.0.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
     "node-sass": "^4.12.0",
@@ -28,6 +30,8 @@
     ]
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

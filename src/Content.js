@@ -15,7 +15,7 @@ class About extends Component {
         <br />
         <a
           class="button is-success is-rounded  is-large"
-          href="mailto:vkbookworm@gmail.com"
+          href="mailto:support@vikas.dev"
         >
           <span>Get in touch</span>
         </a>
