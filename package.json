@@ -2,7 +2,7 @@
   "name": "vikasdev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://worstkiller.github.io/portfolio/",
+  "homepage": "vikas.dev",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
     "bulma": "^0.7.4",
