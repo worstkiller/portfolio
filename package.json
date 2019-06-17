@@ -1,7 +1,8 @@
 {
   "name": "vikasdev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
+  "homepage": "https://vikas.dev",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
     "bulma": "^0.7.4",
